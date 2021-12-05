@@ -1,9 +1,8 @@
-from flask import Flask
-app = Flask(__name__)
+# This program uses the return value of a function.
 
-@app.route("/")
-def hello():
-    return "Hola Bedu!"
+def main():
+    # Print a single text
+    print("Hola Bedu!")
 
-if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8000)
+# Call the main function.
+main()
